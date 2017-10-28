@@ -9,6 +9,11 @@ import org.springframework.web.bind.annotation.RestController;
 import com.uma.jwtspringboot.model.User;
 import com.uma.jwtspringboot.service.UserService;
 
+/**
+ * @author Uma Shankar 
+ * Created On 27 Oct 2017
+ * REST Controller for Secure API.
+ */
 @RestController
 @RequestMapping("/secure")
 public class SecureController {

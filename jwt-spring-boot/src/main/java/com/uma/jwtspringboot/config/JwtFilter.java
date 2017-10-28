@@ -15,8 +15,15 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureException;
 
+/**
+ * @author Uma Shankar 
+ * Created On 27 Oct 2017
+ * This is a filter Class Which handle all request whether the Requested URL is 
+ * Accessible by the User or not Depend on the Token. 
+ */
 public class JwtFilter extends GenericFilterBean {
 
+	
 	public void doFilter(final ServletRequest req, final ServletResponse res, final FilterChain chain)
 			throws IOException, ServletException {
 

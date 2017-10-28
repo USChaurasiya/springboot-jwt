@@ -8,6 +8,11 @@ import javax.persistence.Id;
 
 import org.hibernate.annotations.CreationTimestamp;
 
+/**
+ * @author Uma Shankar
+ *	Created on 27 Oct 2017
+ *	This is POJO Class which contains the User Related Info.
+ */
 @Entity
 public class User {
 

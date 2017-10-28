@@ -17,6 +17,11 @@ import com.uma.jwtspringboot.service.UserService;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
+/**
+ * @author Uma Shankar 
+ * Created on 27 Oct 2017
+ * REST Controller for User Operation API.
+ */
 @CrossOrigin(origins = "http://localhost", maxAge = 3600)
 @RestController
 @RequestMapping("/user")
