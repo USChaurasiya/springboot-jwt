@@ -14,6 +14,7 @@ public class JwtSpringBootApplicationTests {
 	@Test
 	public void contextLoads() {
 		assertEquals("Result", true, true);
+	fail();
 	}
 
 }
